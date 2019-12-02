@@ -1,0 +1,250 @@
+---
+title: Wu Liu's Webpage
+timezone: Asia/Shanghai
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    comments: true
+subtitle: 
+description: Wu Liu's Webpage
+author: Wu Liu
+language: zh-Hans
+date_format: "%Y-%m-%d"
+url: 
+baseurl: 
+permalink: pretty
+paginate: 10
+exclude:
+- ".rvmrc"
+- ".rbenv-version"
+- README.md
+- Rakefile
+- changelog.md
+- Gemfile
+- Gemfile.lock
+- README_en.md
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+feed:
+  path: atom.xml
+plugins:
+- jekyll-sitemap
+- jekyll-feed
+favicon: assets/portrait.jpg
+keywords: Jekyll, NexT
+rss: false
+since: 2015
+authoricon: heart
+copyright: true
+canonical: true
+seo: false
+index_with_subtitle: false
+menu:
+  English: "/"
+  中文: "/zhongwen/"
+  about: "/about/"
+  Link: "/link/"
+menu_icons:
+  enable: true
+  English: home
+  about: user
+  categories: th
+  schedule: calendar
+  tags: tags
+  中文: archive
+  sitemap: sitemap
+  commonweal: heartbeat
+scheme: Pisces
+font:
+  enable: true
+  host: 
+  global:
+    external: true
+    family: Lato
+  headings:
+    external: true
+    family: 
+  posts:
+    external: true
+    family: 
+  logo:
+    external: true
+    family: 
+    size: 
+  codes:
+    external: true
+    family: 
+    size: 
+social:
+  GitHub: 
+  School: 
+social_icons:
+  enable: true
+  GitHub: github
+  Twitter: twitter
+  Weibo: weibo
+  School: university
+in directory: 
+avatar: assets/portrait.jpg
+toc:
+  enable: true
+  number: true
+  wrap: false
+sidebar:
+  position: left
+  display: always
+  offset: 12
+  offset_float: 0
+  b2t: false
+  scrollpercent: false
+scroll_to_more: true
+save_scroll: false
+excerpt_description: true
+auto_excerpt:
+  enable: false
+  length: 150
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at: false
+  categories: true
+post_wordcount:
+  item_text: true
+  wordcount: false
+  min2read: false
+  separated_meta: true
+post_copyright:
+  enable: false
+  license: CC BY-NC-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+custom_logo:
+  enabled: false
+  image: 
+highlight_theme: normal
+mathjax:
+  enable: true
+  per_page: false
+  cdn: "//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"
+han: false
+disqus:
+  enable: false
+  shortname: 
+  count: true
+  hide: false
+changyan:
+  enable: false
+  appid: 
+  appkey: 
+livere_uid: MTAyMC8zMzU2Ny8xMDEyMg==
+duoshuo_info:
+  ua_enable: true
+  admin_enable: false
+  user_id: 0
+facebook_sdk:
+  enable: false
+  app_id: 
+  fb_admin: 
+  like_button: 
+  webmaster: 
+facebook_comments_plugin:
+  enable: false
+  num_of_posts: 10
+  width: 100%
+  scheme: light
+vkontakte_api:
+  enable: false
+  app_id: 
+  like: true
+  comments: true
+  num_of_posts: 10
+rating:
+  enable: false
+  id: 
+  color: fc6423
+leancloud_visitors:
+  enable: false
+  app_id: 
+  app_key: 
+busuanzi_count:
+  enable: false
+  site_uv: true
+  site_uv_header: <i class="fa fa-user"></i>
+  site_uv_footer: 
+  site_pv: true
+  site_pv_header: <i class="fa fa-eye"></i>
+  site_pv_footer: 
+  page_pv: true
+  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_footer: 
+baidu_push: false
+calendar:
+  enable: false
+  calendar_id: "<required>"
+  api_key: "<required>"
+  orderBy: startTime
+  offsetMax: 24
+  offsetMin: 4
+  timeZone: 
+  showDeleted: false
+  singleEvents: true
+  maxResults: 250
+algolia_search:
+  enable: false
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: 'We didn''t find any results for the search: ${query}'
+    hits_stats: "${hits} results found in ${time} ms"
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+exturl: false
+use_motion: false
+fancybox: true
+pace: false
+pace_theme: pace-theme-minimal
+canvas_nest: false
+three_waves: false
+canvas_lines: true
+canvas_sphere: false
+canvas_ribbon: false
+vendors:
+  _internal: assets/lib
+  jquery: 
+  fancybox: 
+  fancybox_css: 
+  fastclick: 
+  lazyload: 
+  velocity: 
+  velocity_ui: 
+  ua_parser: 
+  fontawesome: 
+  algolia_instant_js: 
+  algolia_instant_css: 
+  pace: 
+  pace_css: 
+  canvas_nest: 
+  three: 
+  three_waves: 
+  canvas_lines: 
+  canvas_sphere: 
+  canvas_ribbon: 
+  han: 
+css: assets/css
+js: assets/js
+images: assets/images
+version: 5.1.1
